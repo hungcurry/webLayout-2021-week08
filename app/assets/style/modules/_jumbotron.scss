@@ -1,0 +1,13 @@
+//*-------------------------*/
+//* jumbotron
+//*-------------------------*/
+.jumbotron{
+	background-image: url("../../assets/images/banner.jpg");
+  height: 48rem;
+  .row{
+    padding-bottom: 8rem;
+    @include pad(768){
+      padding-bottom: 0rem;
+    }
+  }
+}

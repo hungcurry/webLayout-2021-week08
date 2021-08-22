@@ -1,0 +1,10 @@
+public
+dist
+config.md
+node_modules
+.publish
+.vscode
+.DS_Store
+.config.md
+
+

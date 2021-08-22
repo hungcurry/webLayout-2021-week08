@@ -1,0 +1,14 @@
+//*-------------------------*/
+//* title
+//*-------------------------*/
+.title{
+	font-size: $font-xl;
+}
+.subtitle {
+	font-size: $font-l;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+.caption{
+  @include fontSize(2.8rem , 1.5);
+}

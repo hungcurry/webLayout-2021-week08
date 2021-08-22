@@ -1,0 +1,15 @@
+//*-------------------------*/
+//* list
+//*-------------------------*/
+.list-circle  {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 16px;
+    background-color: $primary;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+}
