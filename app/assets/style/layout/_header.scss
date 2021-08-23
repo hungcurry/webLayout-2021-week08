@@ -2,5 +2,21 @@
 //* header
 //*-------------------------*/
 .header{
-
+  .btn{
+    transition: all .6s;
+    &:hover{
+      color: $white;
+    }
+  }
+  .nav-link{
+    background: 
+    linear-gradient(
+      to left ,
+      $secondary, $secondary
+    ) no-repeat 0 3rem / 0 0.1rem;
+    transition: background-size .3s;
+    &:hover , &.active{
+      background-size: 100% 0.1rem;
+    }
+  }
 }

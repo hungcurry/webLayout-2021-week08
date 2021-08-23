@@ -3,11 +3,22 @@
 //*-------------------------*/
 .jumbotron{
 	background-image: url("../../assets/images/banner.jpg");
-  height: 48rem;
-  .row{
-    padding-bottom: 8rem;
-    @include pad(768){
-      padding-bottom: 0rem;
+  height: 58.2rem;
+  background-size: cover; 
+  background-position: center bottom;
+  .btn-reservation{
+    transition: all .6s;
+    color: $gray-600;
+    &:hover{
+      background-color: $secondary;
+      color: $white;
+      border-color: $secondary;
+    }
+  }
+  .btn-course{
+    transition: all .6s;
+    &:hover{
+      background-color: $primary;
     }
   }
 }
