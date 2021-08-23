@@ -1,3 +1,9 @@
 //*-------------------------*/
 //* layout
 //*-------------------------*/
+.logo{
+  @include width(9.6rem , 3.1rem);
+}
+.inputText::placeholder {
+  color: $primary;
+}
