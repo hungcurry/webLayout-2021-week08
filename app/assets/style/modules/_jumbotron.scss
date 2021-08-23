@@ -6,6 +6,9 @@
   height: 58.2rem;
   background-size: cover; 
   background-position: center bottom;
+  @include desktop(1400){
+    height: 78.2rem;
+  }
   .btn-reservation{
     transition: all .6s;
     color: $gray-600;

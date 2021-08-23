@@ -1,3 +1,54 @@
 /*-------------------------*/
-/* popular
+/* feel
 ---------------------------*/
+.feel{
+  //圖片區塊
+  .imgBox{
+    padding-bottom: 121.73%;
+    @include pad(768){
+      padding-bottom: 120%;
+    }
+  }
+  .image{
+    transform: scale(1.1);
+    transition: all .6s;
+    &:hover{
+      transform: scale(1);
+    }
+  }
+}
+/*-------------------------*/
+/* teachers
+---------------------------*/
+.teachers{
+  //圖片區塊
+  .imgBox{
+    padding-bottom: 116.29%;
+  }
+  .card-lg img{
+    @include pad(768){
+      @include width(9.4rem , 9.4rem);
+    }
+  }
+  .teacherPic{
+    @include width(4.8rem , 4.8rem);
+    @include pad(768){
+      @include width(6.8rem , 6.8rem);
+    }
+  }
+}
+/*-------------------------*/
+/* space
+---------------------------*/
+.space{
+  //圖片區塊
+  .imgBox{
+    padding-bottom: 127.27%;
+    @include pad(768){
+      padding-bottom: 126.666%;
+    }
+    @include pad(992){
+      padding-bottom: 126.85%;
+    }
+  }
+}
