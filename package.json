@@ -44,7 +44,7 @@
     "popper.js": "^1.16.1",
     "rfs": "^9.0.3",
     "smoothscroll-polyfill": "^0.4.4",
-    "swiper": "^6.8.1"
+    "swiper": "^7.0.0-alpha.40"
   },
   "description": "",
   "devDependencies": {

@@ -170,11 +170,11 @@ current: index
             <span class="material-icons">trending_flat</span>
           </a>
         </div>
-        <!-- 圖片 -->
-        <div class="col-md-6 cardGroup">
-          <div class="scrollbar">
-            <ul class="row gx-4 gx-md-7 d-lg-flex flex-lg-nowrap">
-              <li class="col-6 col-lg-10 cardGroup＿item mb-4 mb-md-6 mb-lg-0">
+        <div class="col-md-6 cardGroup pe-lg-0">
+          <!-- Swiper -->
+          <div class="swiper cursor-grab courseSwiper">
+            <ul class="swiper-wrapper w-100">
+              <li class="swiper-slide">
                 <div class="card position-relative overflow-hidden">
                   <div class="imgBox">
                     <div class="imgBox＿fit">
@@ -183,7 +183,7 @@ current: index
                   </div>
                 </div>
               </li>
-              <li class="col-6 col-lg-10 cardGroup＿item mb-4 mb-md-6 mb-lg-0">
+              <li class="swiper-slide">
                 <div class="card position-relative overflow-hidden">
                   <div class="imgBox">
                     <div class="imgBox＿fit">
@@ -192,7 +192,7 @@ current: index
                   </div>
                 </div>
               </li>
-              <li class="col-6 col-lg-10 cardGroup＿item">
+              <li class="swiper-slide">
                 <div class="card position-relative overflow-hidden">
                   <div class="imgBox">
                     <div class="imgBox＿fit">
@@ -201,7 +201,7 @@ current: index
                   </div>
                 </div>
               </li>
-              <li class="col-6 col-lg-10 cardGroup＿item">
+              <li class="swiper-slide">
                 <div class="card position-relative overflow-hidden">
                   <div class="imgBox">
                     <div class="imgBox＿fit">
@@ -224,11 +224,11 @@ current: index
       </div>
       <ul class="row">
         <li class="col-lg-4 mb-4 mb-md-6 mb-lg-0">
-          <div class="card overflow-hidden border border-primary 
+          <div class="card overflow-hidden border border-secondary
           flex-md-row flex-lg-column">
             <div class="imgBox position-relative col-md-6 col-lg-12">
               <div class="imgBox＿fit">
-                <img src="./assets/images/card1.jpg" class="image cursor-pointer" alt="Yoga introduction pictures">
+                <img src="./assets/images/card1.jpg" class="image" alt="Yoga introduction pictures">
               </div>
             </div>
             <div class="card-body text-center text-md-start text-lg-center p-6">
@@ -240,11 +240,11 @@ current: index
           </div>
         </li>
         <li class="col-lg-4 mb-4 mb-md-6 mb-lg-0">
-          <div class="card overflow-hidden border border-primary 
+          <div class="card overflow-hidden border border-secondary
           flex-md-row flex-lg-column">
             <div class="imgBox position-relative col-md-6 col-lg-12">
               <div class="imgBox＿fit">
-                <img src="./assets/images/card2.jpg" class="image cursor-pointer" alt="Yoga introduction pictures">
+                <img src="./assets/images/card2.jpg" class="image" alt="Yoga introduction pictures">
               </div>
             </div>
             <div class="card-body text-center text-md-start text-lg-center p-6">
@@ -256,11 +256,11 @@ current: index
           </div>
         </li>
         <li class="col-lg-4 mb-4 mb-md-6 mb-lg-0">
-          <div class="card overflow-hidden border border-primary 
+          <div class="card overflow-hidden border border-secondary
           flex-md-row flex-lg-column">
             <div class="imgBox position-relative col-md-6 col-lg-12">
               <div class="imgBox＿fit">
-                <img src="./assets/images/card3.jpg" class="image cursor-pointer" alt="Yoga introduction pictures">
+                <img src="./assets/images/card3.jpg" class="image" alt="Yoga introduction pictures">
               </div>
             </div>
             <div class="card-body text-center text-md-start text-lg-center p-6">
@@ -280,9 +280,9 @@ current: index
       <div class="row">
         <h2 class="fz-xl text-primary text-center mb-6 mb-md-8">聽聽他們怎麼說</h2>
         <!-- Swiper -->
-        <div class="swiper-container reSwiper">
-          <div class="swiper-wrapper w-100 align-content-between">
-            <div class="swiper-slide">
+        <div class="swiper cursor-grab recommendSwiper">
+          <ul class="swiper-wrapper w-100 justify-content-between align-content-between pb-10 pb-md-0">
+            <li class="swiper-slide">
               <!-- card -->
               <div class="card flex-row align-items-center p-4 overflow-hidden">
                 <img src="./assets/images/user-1.png" class="image me-5" alt="people">
@@ -292,17 +292,17 @@ current: index
                     <span class="d-inline-block fz-s">Oct 17 2021</span>
                   </h3>
                   <ul class="d-flex align-items-center text-secondary mb-2">
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
                   </ul>
                   <p class="text-primary">服務很好、設備優良！</p>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide">
+            </li>
+            <li class="swiper-slide">
               <!-- card -->
               <div class="card flex-row align-items-center p-4 overflow-hidden">
                 <img src="./assets/images/user-4.png" class="image me-5" alt="people">
@@ -312,17 +312,17 @@ current: index
                     <span class="d-inline-block fz-s">Oct 17 2021</span>
                   </h3>
                   <ul class="d-flex align-items-center text-secondary mb-2">
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
                   </ul>
                   <p class="text-primary">老師的教學很專業</p>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide">
+            </li>
+            <li class="swiper-slide">
               <!-- card -->
               <div class="card flex-row align-items-center p-4 overflow-hidden">
                 <img src="./assets/images/user-2.png" class="image me-5" alt="people">
@@ -332,17 +332,17 @@ current: index
                     <span class="d-inline-block fz-s">Oct 17 2021</span>
                   </h3>
                   <ul class="d-flex align-items-center text-secondary mb-2">
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
                   </ul>
                   <p class="text-primary">上課後身體健康很多</p>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide">
+            </li>
+            <li class="swiper-slide">
               <!-- card -->
               <div class="card flex-row align-items-center p-4 overflow-hidden">
                 <img src="./assets/images/user-5.png" class="image me-5" alt="people">
@@ -352,17 +352,17 @@ current: index
                     <span class="d-inline-block fz-s">Oct 17 2021</span>
                   </h3>
                   <ul class="d-flex align-items-center text-secondary mb-2">
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
                   </ul>
                   <p class="text-primary">很舒壓</p>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide me-xl-0">
+            </li>
+            <li class="swiper-slide">
               <!-- card -->
               <div class="card flex-row align-items-center p-4 overflow-hidden">
                 <img src="./assets/images/user-3.png" class="image me-5" alt="people">
@@ -372,17 +372,17 @@ current: index
                     <span class="d-inline-block fz-s">Oct 17 2021</span>
                   </h3>
                   <ul class="d-flex align-items-center text-secondary mb-2">
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
                   </ul>
                   <p class="text-primary">上課很有趣！</p>
                 </div>
               </div>
-            </div>
-            <div class="swiper-slide me-xl-0">
+            </li>
+            <li class="swiper-slide">
               <!-- card -->
               <div class="card flex-row align-items-center p-4 overflow-hidden">
                 <img src="./assets/images/user-6.png" class="image me-5" alt="people">
@@ -392,17 +392,137 @@ current: index
                     <span class="d-inline-block fz-s">Oct 17 2021</span>
                   </h3>
                   <ul class="d-flex align-items-center text-secondary mb-2">
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
-                    <li class="lh-0"><span class="material-icons">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
                   </ul>
                   <p class="text-primary">讚的！</p>
                 </div>
               </div>
-            </div>
-          </div>
+            </li>
+            <li class="swiper-slide">
+              <!-- card -->
+              <div class="card flex-row align-items-center p-4 overflow-hidden">
+                <img src="./assets/images/user-1.png" class="image me-5" alt="people">
+                <div class="card-body p-0">
+                  <h3 class="text-primary align-middle fw-400 mb-2">
+                    <span class="d-inline-block fz-base me-1">Joanne</span>
+                    <span class="d-inline-block fz-s">Oct 17 2021</span>
+                  </h3>
+                  <ul class="d-flex align-items-center text-secondary mb-2">
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                  </ul>
+                  <p class="text-primary">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <!-- card -->
+              <div class="card flex-row align-items-center p-4 overflow-hidden">
+                <img src="./assets/images/user-3.png" class="image me-5" alt="people">
+                <div class="card-body p-0">
+                  <h3 class="text-primary align-middle fw-400 mb-2">
+                    <span class="d-inline-block fz-base me-1">子琪</span>
+                    <span class="d-inline-block fz-s">Oct 17 2021</span>
+                  </h3>
+                  <ul class="d-flex align-items-center text-secondary mb-2">
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                  </ul>
+                  <p class="text-primary">上課很有趣！</p>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <!-- card -->
+              <div class="card flex-row align-items-center p-4 overflow-hidden">
+                <img src="./assets/images/user-6.png" class="image me-5" alt="people">
+                <div class="card-body p-0">
+                  <h3 class="text-primary align-middle fw-400 mb-2">
+                    <span class="d-inline-block fz-base me-1">俊儀</span>
+                    <span class="d-inline-block fz-s">Oct 17 2021</span>
+                  </h3>
+                  <ul class="d-flex align-items-center text-secondary mb-2">
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                  </ul>
+                  <p class="text-primary">讚的！</p>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <!-- card -->
+              <div class="card flex-row align-items-center p-4 overflow-hidden">
+                <img src="./assets/images/user-1.png" class="image me-5" alt="people">
+                <div class="card-body p-0">
+                  <h3 class="text-primary align-middle fw-400 mb-2">
+                    <span class="d-inline-block fz-base me-1">Joanne</span>
+                    <span class="d-inline-block fz-s">Oct 17 2021</span>
+                  </h3>
+                  <ul class="d-flex align-items-center text-secondary mb-2">
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                  </ul>
+                  <p class="text-primary">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide me-xl-0">
+              <!-- card -->
+              <div class="card flex-row align-items-center p-4 overflow-hidden">
+                <img src="./assets/images/user-4.png" class="image me-5" alt="people">
+                <div class="card-body p-0">
+                  <h3 class="text-primary align-middle fw-400 mb-2">
+                    <span class="d-inline-block fz-base me-1">葉子</span>
+                    <span class="d-inline-block fz-s">Oct 17 2021</span>
+                  </h3>
+                  <ul class="d-flex align-items-center text-secondary mb-2">
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                  </ul>
+                  <p class="text-primary">老師的教學很專業</p>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide me-xl-0">
+              <!-- card -->
+              <div class="card flex-row align-items-center p-4 overflow-hidden">
+                <img src="./assets/images/user-2.png" class="image me-5" alt="people">
+                <div class="card-body p-0">
+                  <h3 class="text-primary align-middle fw-400 mb-2">
+                    <span class="d-inline-block fz-base me-1">穎旻</span>
+                    <span class="d-inline-block fz-s">Oct 17 2021</span>
+                  </h3>
+                  <ul class="d-flex align-items-center text-secondary mb-2">
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                    <li class="lh-0"><span class="material-icons fz-m me-1">grade</span></li>
+                  </ul>
+                  <p class="text-primary">上課後身體健康很多</p>
+                </div>
+              </div>
+            </li>
+          </ul>
           <span class="swiper-button-next material-icons text-primary d-md-none">east</span>
           <span class="swiper-button-prev material-icons text-primary d-md-none">west</span>
         </div>

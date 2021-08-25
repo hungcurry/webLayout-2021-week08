@@ -1,15 +1,45 @@
-var swiper = new Swiper(".reSwiper", {
+
+let courseSwiper= new Swiper(".courseSwiper", {
   slidesPerView: "auto",
-  slidesPerColumn: 3,
-  spaceBetween: 30,
+  grid: {
+    rows: 2,
+  },
+  spaceBetween: 16,
   breakpoints: {
     768:{
-      spaceBetween: 15,
-      slidesPerColumn: 2,
+      spaceBetween: 24,
+      grid: {
+        rows: 2,
+      },
     },
     992:{
       spaceBetween: 30,
-      slidesPerColumn: 2,
+      grid: {
+        rows: 0,
+      },
+    },
+  },
+});
+
+
+let recommendSwiper = new Swiper(".recommendSwiper", {
+  slidesPerView: "auto",
+  grid: {
+    rows: 3,
+  },
+  spaceBetween: 8,
+  breakpoints: {
+    768:{
+      spaceBetween: 16,
+      grid: {
+        rows: 2,
+      },
+    },
+    992:{
+      spaceBetween: 30,
+      grid: {
+        rows: 2,
+      },
     },
   },
   navigation: {
@@ -17,4 +47,5 @@ var swiper = new Swiper(".reSwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
 
