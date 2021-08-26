@@ -1,4 +1,4 @@
-
+// 首頁
 let courseSwiper= new Swiper(".courseSwiper", {
   slidesPerView: "auto",
   grid: {
@@ -20,7 +20,6 @@ let courseSwiper= new Swiper(".courseSwiper", {
     },
   },
 });
-
 
 let recommendSwiper = new Swiper(".recommendSwiper", {
   slidesPerView: "auto",
@@ -48,4 +47,9 @@ let recommendSwiper = new Swiper(".recommendSwiper", {
   },
 });
 
+// 瑜珈空間
+let envRecommendSwiper = new Swiper(".envRecommendSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 30,
+});
 

@@ -1,0 +1,44 @@
+/*-------------------------*/
+/* envSpace 
+---------------------------*/
+.envSpace{
+  .bg-mask{
+    transition: all .6s;
+    &:hover{
+      background-color: rgba($color: $black, $alpha: 0.35);
+    }
+  }
+  //圖片區塊
+  .imgBox{
+    padding-bottom: 101.44%;
+    @include pad(768){
+      padding-bottom: 100%;
+    }
+  }
+  .imgBox-lg{
+    padding-bottom: 101.44%;
+    @include pad(768){
+      padding-bottom: 48%;
+    }
+  }
+}
+/*-------------------------*/
+/* envRecommend 
+---------------------------*/
+.envRecommend {
+  //圖片區塊
+  .imgBox{
+    padding-bottom: 76.86%;
+  }
+  .swiper {
+    .swiper-slide {
+      width: 25.5rem;
+      @include pad(768){
+        width: 21rem;
+      }
+      @include pad(992){
+        width: 25.5rem;
+      }
+    }
+  }
+}
