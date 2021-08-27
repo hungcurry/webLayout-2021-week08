@@ -10,3 +10,17 @@
 .swiper{
   user-select: none;
 }
+//*-------------------------*/
+//* courseSearBar
+//*-------------------------*/
+.courseSearBar{
+  .input-group{
+    max-width: 23rem;
+    @include pad(768){
+      max-width: 27rem;
+    }
+    @include pad(992){
+      max-width: 35rem;
+    }
+  }
+}

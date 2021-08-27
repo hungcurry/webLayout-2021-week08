@@ -1,0 +1,15 @@
+/*-------------------------*/
+/* courseNew
+---------------------------*/
+.courseNew{
+  //圖片區塊
+  .imgBox{
+    padding-bottom: 63.18%;
+    @include pad(768){
+      padding-bottom: 110.6%;
+    }
+    @include pad(992){
+      padding-bottom: 63.14%;
+    }
+  }
+}
