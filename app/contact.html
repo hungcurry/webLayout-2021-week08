@@ -1,0 +1,64 @@
+---
+title: DOYOGA 健身輕時尚-聯絡頁
+layout: ./app/views/layout/layoutIndex.ejs
+engine: ejs
+current: contact
+---
+
+<main class="main">
+  <!-- contact -->
+  <section class="contact pt-12 pt-md-16 bg-white">
+    <div class="container">
+      <div class="row">
+        <h2 class="fz-xl text-primary text-center mb-6 mb-md-8">聯絡我們</h2>
+        <div class="col-md-10 col-lg-7 mx-auto">
+          <!-- 地圖 -->
+          <div class="card position-relative overflow-hidden mb-6">
+            <div class="imgBox">
+              <div class="imgBox＿fit">
+                <iframe class="image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.5955629190807!2d121.51447306569874!3d25.04779575189766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a96d81d130e9%3A0x6117b31db9ebb9c1!2z5b6u6aKo5Y-w5YyX6LuK56uZ!5e0!3m2!1szh-TW!2stw!4v1630165870715!5m2!1szh-TW!2stw"
+                  allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+          <h3 class="text-primary fz-l fw-400 mb-2">DOYOGA 教室位置：</h3>
+          <p class="text-primary mb-2 mb-md-8 mb-lg-2">100台北市中正區北平西路3號</p>
+          <ul class="text-primary col-lg-6">如何前往：
+            <li class="mb-6">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+            <li class="mb-6">2. 搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+            <li class="mb-10 mb-lg-0">3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+          </ul>
+        </div>
+        <div class="col-md-10 col-lg-5 mx-auto">
+          <div class="bg-thirdly card h-100 text-primary px-4 py-6 p-md-8">
+            <!-- 表單 -->
+            <form class="form" action="" method="post">
+              <h3 class="fz-m fw-400 mb-4">意見回饋&amp;問題詢問</h3>
+              <ul>
+                <li class="mb-4">
+                  <label for="userName" class="form-label mb-2">姓名</label>
+                  <input type="text" placeholder="請輸入您的姓名" id="userName" class="form-control fz-base inputText border-secondary w-100" required>
+                </li>
+                <li class="mb-4">
+                  <label for="userEmail" class="form-label mb-2">電子信箱</label>
+                  <input type="email" placeholder="email@example.com" id="userEmail" class="form-control fz-base inputText border-secondary w-100" required>
+                </li>
+                <li class="mb-4">
+                  <label for="userPhone" class="form-label mb-2">手機號碼</label>
+                  <input type="tel" placeholder="0912-345-678" id="userPhone" class="form-control fz-base inputText border-secondary w-100" required>
+                </li>
+                <li class="mb-4 mb-md-6">
+                  <label for="userMassage" class="form-label mb-2">意見回饋</label>
+                  <textarea id="userMassage" class="form-control textarea fz-base inputText border-secondary w-100" maxlength="350">輸入你想要寫的內容...</textarea>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-lg btn-secondary fz-base text-white">送出</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

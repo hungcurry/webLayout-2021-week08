@@ -1,0 +1,26 @@
+/*-------------------------*/
+/* contact
+---------------------------*/
+.contact{
+  padding-bottom: 8.8rem;
+  @include pad(768){
+    padding-bottom: 8rem;
+  }
+  @include pad(992){
+    padding-bottom: 8rem;
+  }
+  //圖片區塊
+  .imgBox{
+    padding-bottom: 56.52%;
+    @include pad(768){
+      padding-bottom: 56.66%;
+    }
+    @include pad(992){
+      padding-bottom: 56.78%;
+    }
+  }
+  .textarea{
+    min-height: 21.4rem;
+    color: $primary;
+  }
+}
