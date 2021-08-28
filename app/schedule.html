@@ -1,18 +1,142 @@
 ---
-title: DOYOGA 健身輕時尚-環境頁
+title: DOYOGA 健身輕時尚-課表頁
 layout: ./app/views/layout/layoutIndex.ejs
 engine: ejs
-current: surroundings
+current: schedule
 ---
 
 <main class="main">
-  <!-- envSpace -->
-  <section class="envSpace pt-12 pb-10 pb-md-6 pt-md-16 pb-lg-10 bg-white">
+  <!-- schedule -->
+  <section class="schedule pt-12 pt-md-16 bg-white">
     <div class="container">
+      <div class="row mb-8 mb-md-10 mb-lg-8">
+        <h2 class="fz-xl text-primary text-center mb-6 mb-md-8">本月課表</h2>
+        <div class="col-lg-10 mx-auto">
+          <!-- table -->
+          <div class="rounded-6 bg-secondary px-4 py-6 px-md-12 py-md-10">
+            <p class="fz-m text-white mb-2">2021 07 月</p>
+            <div class="table-responsive pb-4">
+              <table class="table min-w-5 text-primary border-primary bg-white mb-0">
+                <thead>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">時間</th>
+                    <th class="fw-400 text-center">星期一</th>
+                    <th class="fw-400 text-center bg-thirdly">星期二</th>
+                    <th class="fw-400 text-center">星期三</th>
+                    <th class="fw-400 text-center bg-thirdly">星期四</th>
+                    <th class="fw-400 text-center">星期五</th>
+                    <th class="fw-400 text-center bg-thirdly">星期六</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">0900-1000</th>
+                    <td>基礎 Basic</td>
+                    <td class="bg-thirdly">基礎 Basic</td>
+                    <td></td>
+                    <td class="bg-thirdly"></td>
+                    <td>基礎 Basic</td>
+                    <td class="bg-thirdly">基礎 Basic</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1000-1100</th>
+                    <td>艾揚格 Iyengar</td>
+                    <td class="bg-thirdly">哈達 Hatha</td>
+                    <td>寰宇 Universal</td>
+                    <td class="bg-thirdly">哈達 Hatha</td>
+                    <td>艾揚格 Iyengar</td>
+                    <td class="bg-thirdly">雙人飛行</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1100-1200</th>
+                    <td>寰宇 Universal</td>
+                    <td class="bg-thirdly">陰陽 Yin Yang</td>
+                    <td>艾揚格 Iyengar</td>
+                    <td class="bg-thirdly">寰宇 Universal</td>
+                    <td></td>
+                    <td class="bg-thirdly">艾揚格 Iyengar</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1200-1400</th>
+                    <td colspan="6" class="text-center">休息</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1400-1500</th>
+                    <td>雙人飛行</td>
+                    <td class="bg-thirdly">基礎 Basic</td>
+                    <td>雙人飛行</td>
+                    <td class="bg-thirdly">陰陽 Yin Yang</td>
+                    <td>雙人飛行</td>
+                    <td class="bg-thirdly">基礎 Basic</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1500-1600</th>
+                    <td>陰陽 Yin Yang</td>
+                    <td class="bg-thirdly">陰陽 Yin Yang</td>
+                    <td>基礎 Basic</td>
+                    <td class="bg-thirdly">基礎 Basic</td>
+                    <td>哈達 Hatha</td>
+                    <td class="bg-thirdly">香氛瑜珈</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1600-1700</th>
+                    <td>哈達 Hatha</td>
+                    <td class="bg-thirdly">雙人飛行</td>
+                    <td>陰陽 Yin Yang</td>
+                    <td class="bg-thirdly">香氛瑜珈</td>
+                    <td>艾揚格 Iyengar</td>
+                    <td class="bg-thirdly">陰陽 Yin Yang</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1700-1800</th>
+                    <td>艾揚格 Iyengar</td>
+                    <td class="bg-thirdly"></td>
+                    <td>哈達 Hatha</td>
+                    <td class="bg-thirdly">艾揚格 Iyengar</td>
+                    <td>寰宇 Universal</td>
+                    <td class="bg-thirdly">哈達 Hatha</td>
+                  </tr>
+                  <tr>
+                    <th class="fw-400 border-end border-primary">1800-2000</th>
+                    <td colspan="6" class="text-center">休息</td>
+                  </tr>
+                  <tr class="lastTr">
+                    <th class="fw-400 border-end border-primary">2000-2100</th>
+                    <td></td>
+                    <td class="bg-thirdly"></td>
+                    <td>香氛瑜珈</td>
+                    <td class="bg-thirdly">艾揚格 Iyengar</td>
+                    <td>香氛瑜珈</td>
+                    <td class="bg-thirdly">雙人飛行</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="row">
-        <h2 class="fz-xl text-primary text-center mb-6 mb-md-8">瑜珈空間</h2>
-
-        
+        <h2 class="fz-xl text-primary text-center mb-6 mb-lg-8">上課須知</h2>
+        <div class="col-md-10 col-lg-8 mx-auto">
+          <ul>
+            <li class="d-flex align-items-center mb-4 mb-md-6">
+              <span class="number flex-shrink-0 fz-2xl fw-700 text-primary me-2 me-md-6">1.</span>
+              <span class="notes d-block card bg-white text-primary border border-secondary px-4 px-md-6 py-4">空中瑜珈、香氛開放 2 天前電話預約上課。</span>
+            </li>
+            <li class="d-flex align-items-center mb-4 mb-md-6 justify-content-xl-end">
+              <span class="number flex-shrink-0 fz-2xl fw-700 text-primary me-2 me-md-6">2.</span>
+              <span class="notes d-block card bg-secondary text-white border border-secondary px-4 px-md-6 py-4">如果有特殊體質、特殊狀況，請主動告知該堂教師。</span>
+            </li>
+            <li class="d-flex align-items-center mb-4 mb-md-6">
+              <span class="number flex-shrink-0 fz-2xl fw-700 text-primary me-2 me-md-6">3.</span>
+              <span class="notes d-block card bg-white text-primary border border-secondary px-4 px-md-6 py-4">取消預約或時間異動請於預約日前一天晚間 21:00 前告知。</span>
+            </li>
+            <li class="d-flex align-items-center mb-4 mb-md-6 justify-content-xl-end">
+              <span class="number flex-shrink-0 fz-2xl fw-700 text-primary me-2 me-md-6">4.</span>
+              <span class="notes d-block card bg-secondary text-white border border-secondary px-4 px-md-6 py-4">運動過程中若感到任何不適，請馬上停止且與老師商量討論。</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
