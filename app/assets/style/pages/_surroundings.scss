@@ -2,12 +2,6 @@
 /* envSpace 
 ---------------------------*/
 .envSpace{
-  .bg-mask{
-    transition: all .6s;
-    &:hover{
-      background-color: rgba($color: $black, $alpha: 0.35);
-    }
-  }
   //圖片區塊
   .imgBox{
     padding-bottom: 101.44%;

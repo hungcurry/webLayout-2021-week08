@@ -1,4 +1,30 @@
 //*-------------------------*/
 //* modal
 //*-------------------------*/
-
+.courseListModal{
+  .btn-close{
+    right: 5%;
+    transform: translateY(-100%);
+  }
+  .card{
+    width: 16.5rem;
+    @include pad(768){
+      width: 26.4rem;
+    }
+    @include pad(992){
+      width: 41.8rem;
+    }
+  }
+  //圖片區塊
+  .imgBox{
+    @include pad(768){
+      padding-bottom: 158.33%;
+    }
+    @include pad(992){
+      padding-bottom: 100%;
+    }
+  }
+  .modal-content{
+    border-radius: 1.6rem;
+  }
+}

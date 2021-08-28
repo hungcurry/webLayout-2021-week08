@@ -13,3 +13,84 @@
     }
   }
 }
+/*-------------------------*/
+/* courseSearBar
+---------------------------*/
+.courseSearBar{
+  .input-group{
+    max-width: 23rem;
+    @include pad(768){
+      max-width: 27rem;
+    }
+    @include pad(992){
+      max-width: 35rem;
+    }
+  }
+}
+/*-------------------------*/
+/* courseList 
+---------------------------*/
+.courseList{
+  .col-lg-6\.5{
+    @include pad(992){
+      width: 55.9748%;
+    }
+  }
+  .col-lg-5\.5{
+    @include pad(992){
+      width: 44.025%;
+    }
+  }  
+  .minIcon {
+    left: 3.9rem;
+    transform: translateY(-50%);
+    z-index: 50;
+  }
+  .image{
+    height: 19.6rem;
+  }
+}
+/*-------------------------*/
+/* courseIntroduce
+---------------------------*/
+.courseIntroduce{
+  padding-bottom: 8.8rem;
+  @include pad(768){
+    padding-bottom: 8rem;
+  }
+  @include pad(992){
+    padding-bottom: 11.3rem;
+  } 
+  .card-image{
+    @include width(9.6rem , 9.6rem);
+    object-fit: cover;
+  }
+  .swiper {
+    .swiper-wrapper{
+      height: 220.6rem;
+      @include pad(375){
+        height: 193.6rem;
+      }
+      @include pad(768){
+        height: 46.6rem;
+      }
+    }
+    .swiper-slide {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: calc((100% - 72px) / 4);
+      @include pad(768){
+        width: 33rem;
+        height: auto;
+      }
+      @include pad(992){
+        width: 35rem;
+      }
+    }
+    .card{
+      height: calc(100% - 4.8rem);
+    }
+  }
+}

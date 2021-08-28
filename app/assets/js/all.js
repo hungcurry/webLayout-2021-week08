@@ -47,6 +47,24 @@ let recommendSwiper = new Swiper(".recommendSwiper", {
   },
 });
 
+// 課程介紹
+let courseIntroduceSwiper = new Swiper(".courseIntroduceSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 24,
+  grid: {
+    rows: 4,
+  },
+  breakpoints: {
+    768:{
+      spaceBetween: 30,
+      grid: {
+        rows: 0,
+      },
+    },
+  },
+});
+
+
 // 瑜珈空間
 let envRecommendSwiper = new Swiper(".envRecommendSwiper", {
   slidesPerView: "auto",
