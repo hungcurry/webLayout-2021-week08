@@ -18,6 +18,15 @@
       padding-bottom: 69.42%;
     }
   }
+  .card{
+    transition: all .3s;
+    &:hover{
+      transform: translateY(-1rem);  
+    }
+    &.active{
+      border-width: 0.4rem !important;
+    }
+  }
 }
 .swiper{
   user-select: none;
