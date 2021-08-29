@@ -103,21 +103,6 @@
   }
 }
 /*-------------------------*/
-/* scheme
----------------------------*/
-.scheme{
-  //圖片區塊
-  .imgBox{
-    padding-bottom: 70.43%;
-    @include pad(768){
-      padding-bottom: 34.49%;
-    }
-    @include pad(992){
-      padding-bottom: 69.42%;
-    }
-  }
-}
-/*-------------------------*/
 /* recommend
 ---------------------------*/
 .recommend{

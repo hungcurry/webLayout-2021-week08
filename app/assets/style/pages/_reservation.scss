@@ -1,0 +1,24 @@
+/*-------------------------*/
+/* reservation
+---------------------------*/
+.reservation{
+  padding-bottom: 8.8rem;
+  @include pad(768){
+    padding-bottom: 8rem;
+  }
+  @include pad(992){
+    padding-bottom: 10.4rem;
+  }
+  .reserveList＿item {
+    background-color: $thirdly;
+    color: $primary;
+    &.active{
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}
+
+
+
+

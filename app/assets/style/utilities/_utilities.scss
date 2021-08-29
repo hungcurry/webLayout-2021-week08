@@ -148,6 +148,20 @@ $utilities: map-merge(
         grab,
       ),
     ),
+    "user-select": (
+      property: user-select,
+      values: all auto none
+    ),
+    'list-style-type': (
+      property: list-style-type ,
+      class: list,
+      values: (
+        disc,
+        circle,
+        decimal,
+        none,
+      ),
+    ),
     "position": (
       responsive: true,
       property: position,
