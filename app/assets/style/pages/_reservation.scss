@@ -17,7 +17,22 @@
       color: $white;
     }
   }
+  .check {
+    font-size: 4rem;
+  }
+
+
 }
 
+// 狀態
+.accordion-button::after {
+  display: none;
+}
+.accordion-button:not(.collapsed) .angle-up{
+  display: none;
+}
+.accordion-button.collapsed .angle-down{
+  display: none;
+}
 
 
