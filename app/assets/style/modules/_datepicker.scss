@@ -1,0 +1,34 @@
+//*-------------------------*/
+//* datepicker
+//*-------------------------*/
+.datepicker {
+  transform :scale(1.6);
+  transform-origin: top left;
+  & *{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .datepicker-cell.focused:not(.selected) {
+    background-color: $primary;
+    color: $white;
+  }
+  .datepicker-picker {
+    color: $primary;
+    box-shadow: none;
+    border: 0.1rem solid $secondary;
+  }
+  .datepicker-cell.selected,
+  .datepicker-cell.selected:hover {
+    background-color: $primary;
+  }
+  /* 可以利用 API 更改 */
+  .datepicker-cell.next:not(.disabled),
+  .datepicker-cell.prev:not(.disabled) {
+    color: $secondary;
+    opacity: 0.5;
+  }
+  .datepicker-header .datepicker-controls .button,
+  .datepicker-footer .datepicker-controls .button {
+    color: $primary;
+  }
+}

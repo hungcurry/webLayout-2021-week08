@@ -1,0 +1,156 @@
+---
+title: DOYOGA 健身輕時尚-預約頁
+layout: ./app/views/layout/layoutIndex.ejs
+engine: ejs
+current: reservation
+---
+
+
+<main class="main">
+  <!-- reservation -->
+  <section class="reservation pt-12 pt-md-16 bg-white">
+    <div class="container">
+      <div class="row">
+        <h2 class="fz-xl text-primary text-center mb-6 mb-md-4">立即預約</h2>
+        <ul class="reserveList d-flex align-items-center justify-content-between justify-content-md-center text-center mb-8">
+          <li class="reserveList＿item px-5 px-lg-12 py-3 rounded-6 me-4 me-md-7">選擇方案</li>
+          <li class="reserveList＿item px-5 px-lg-12 py-3 rounded-6 me-4 me-md-7 active">填寫資料</li>
+          <li class="reserveList＿item px-5 px-lg-12 py-3 rounded-6">完成預約</li>
+        </ul>
+        <h3 class="text-center text-muted fz-base fw-400 mb-6 mb-lg-8">您選擇的是<span
+            class="ms-4 text-secondary fz-m">首次體驗課程-基礎</span></h3>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <form action="">
+            <ul class="text-muted">
+              <li class="mb-8">
+                <p class="mb-4">1. 是否接觸過瑜珈?</p>
+                <div class="form-check form-check-inline me-8">
+                  <input class="form-check-input border-secondary" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="是" checked>
+                  <label class="form-check-labe" for="inlineRadio1">是</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input border-secondary" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="否">
+                  <label class="form-check-labe" for="inlineRadio2">否</label>
+                </div>
+              </li>
+              <li class="mb-8">
+                <p class="mb-4">2. 想改善的生活問題?</p>
+                <ul>
+                  <li class="mb-4 d-flex">
+                    <div class="form-check form-check-inline me-0 col-4">
+                      <input class="form-check-input border-secondary" type="checkbox" id="inlineCheckbox1" value="肌耐力不足">
+                      <label class="form-check-label" for="inlineCheckbox1">肌耐力不足</label>
+                    </div>
+                    <div class="form-check form-check-inline me-0 col-4">
+                      <input class="form-check-input border-secondary" type="checkbox" id="inlineCheckbox2" value="柔軟度不佳">
+                      <label class="form-check-label" for="inlineCheckbox2">柔軟度不佳</label>
+                    </div>
+                    <div class="form-check form-check-inline me-0 col-4">
+                      <input class="form-check-input border-secondary" type="checkbox" id="inlineCheckbox3" value="壓力大">
+                      <label class="form-check-label" for="inlineCheckbox3">壓力大</label>
+                    </div>
+                  </li>
+                  <li class="mb-4 d-flex">
+                    <div class="form-check form-check-inline me-0 col-4">
+                      <input class="form-check-input border-secondary" type="checkbox" id="inlineCheckbox4" value="肌耐力不足">
+                      <label class="form-check-label" for="inlineCheckbox4">姿勢不正</label>
+                    </div>
+                    <div class="form-check form-check-inline me-0 col-4">
+                      <input class="form-check-input border-secondary" type="checkbox" id="inlineCheckbox5" value="柔軟度不佳">
+                      <label class="form-check-label" for="inlineCheckbox5">睡眠品質差</label>
+                    </div>
+                    <div class="form-check form-check-inline me-0 col-4">
+                      <input class="form-check-input border-secondary" type="checkbox" id="inlineCheckbox6" value="壓力大">
+                      <label class="form-check-label" for="inlineCheckbox6">注意力不足</label>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="mb-8">
+                <p class="mb-4">3. 每週累積運動量約為多少？</p>
+                <ul>
+                  <li class="mb-4 d-flex">
+                    <div class="form-check form-check-inline me-0 col-6">
+                      <input class="form-check-input border-secondary" type="radio" name="inlineRadioOptions2" id="inlineRadio3"
+                        value="150 分鐘以上" checked>
+                      <label class="form-check-label" for="inlineRadio3">150 分鐘以上</label>
+                    </div>
+                    <div class="form-check form-check-inline col-6">
+                      <input class="form-check-input border-secondary" type="radio" name="inlineRadioOptions2" id="inlineRadio4"
+                        value="75~150 分鐘">
+                      <label class="form-check-label" for="inlineRadio4">75~150 分鐘</label>
+                    </div>
+                  </li>
+                  <li class="mb-4 d-flex">
+                    <div class="form-check form-check-inline me-0 col-6">
+                      <input class="form-check-input border-secondary" type="radio" name="inlineRadioOptions2" id="inlineRadio5"
+                        value="30~75 分鐘">
+                      <label class="form-check-label" for="inlineRadio5">30~75 分鐘</label>
+                    </div>
+                    <div class="form-check form-check-inline col-6">
+                      <input class="form-check-input border-secondary" type="radio" name="inlineRadioOptions2" id="inlineRadio6"
+                        value="30 分鐘以下">
+                      <label class="form-check-label" for="inlineRadio6">30 分鐘以下</label>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="mb-8">
+                <p class="mb-1">4. 上課預約報到日</p>
+                <label for="usedate" class="form-labe mb-2">
+                  <small class="d-block">若還沒有確定的日期，可以等待專員與您聯絡時在做詳細的諮詢哦！</small>
+                </label>
+                <input type="text" class="form-control fz-base text-secondary inputText border-secondary w-auto" id="usedate" name="datepicker" placeholder="YYYY/DD/MM">
+              </li>
+              <li class="mb-8">
+                <p class="mb-4">5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
+                <ul class="row gx-3">
+                  <li class="col-6 mb-4">
+                    <label for="userName" class="text-secondary form-label mb-2">姓名</label>
+                    <input type="text" class="form-control fz-base border-secondary inputText" id="userName" placeholder="請輸入您的姓名">
+                  </li>
+                  <li class="col-6 mb-4">
+                    <label for="useAge" class="text-secondary form-labe mb-2">年齡</label>
+                    <input type="number" class="form-control fz-base border-secondary inputText" id="useAge" placeholder="請輸入您的年齡">
+                  </li>
+                  <li class="w-auto mb-4">
+                    <label for="useGender" class="text-secondary form-label mb-2">性別</label>
+                    <select name="useGender" class="form-select text-primary fz-base border-secondary w-auto" id="useGender">
+                      <option value="男">男</option>
+                      <option value="女" selected>女</option>
+                    </select>
+                  </li>
+                  <li class="mb-4">
+                    <label for="useEmail" class="text-secondary form-label mb-2">電子信箱</label>
+                    <input type="email" class="form-control fz-base border-secondary inputText" id="useEmail" placeholder="email@example.com">
+                  </li>
+                  <li>
+                    <label for="usePhone" class="text-secondary form-label mb-2">手機號碼</label>
+                    <input type="tel" class="form-control fz-base border-secondary inputText" id="usePhone" placeholder="0912-345-678">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <a href="./reservation_finish.html" class="btn btn-lg btn-secondary fz-m w-100 text-white">送出</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/locales/zh-TW.js"></script>
+<script>
+  (function () {
+    const elem = document.querySelector('input[name="datepicker"]');
+    const datepicker = new Datepicker(elem, {
+      autohide: true,
+      language: "zh-TW",
+      nextArrow: "<span class='material-icons'>navigate_next</span>",
+      prevArrow: "<span class='material-icons'>navigate_before</span>",
+      todayBtn: true,
+      clearBtn: true
+    });
+  }());
+</script>
