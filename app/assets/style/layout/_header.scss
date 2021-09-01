@@ -9,12 +9,14 @@
     }
   }
   .nav-link{
-    background: 
-    linear-gradient(
-      to left ,
-      $secondary, $secondary
-    ) no-repeat 0 3rem / 0 0.1rem;
     transition: background-size .3s;
+    @include pad(992){
+      background: 
+      linear-gradient(
+        to left ,
+        $secondary, $secondary
+      ) no-repeat 0 3rem / 0 0.1rem;
+    }
     &:hover , &.active{
       background-size: 100% 0.1rem;
     }

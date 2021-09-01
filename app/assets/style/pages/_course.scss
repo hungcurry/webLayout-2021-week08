@@ -17,6 +17,7 @@
 /* courseSearBar
 ---------------------------*/
 .courseSearBar{
+  top: 8rem;
   .input-group{
     max-width: 23rem;
     @include pad(768){
