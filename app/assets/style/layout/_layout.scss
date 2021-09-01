@@ -18,8 +18,10 @@
       padding-bottom: 69.42%;
     }
   }
-  .card.active{
-    border-width: 0.4rem !important;
+  .card{
+    &.active{
+      border-width: 0.4rem !important;
+    }
   }
 }
 .swiper{
