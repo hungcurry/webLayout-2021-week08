@@ -64,6 +64,29 @@ let courseIntroduceSwiper = new Swiper(".courseIntroduceSwiper", {
   },
 });
 
+// 選擇課程階級
+let reservationSwiper = new Swiper(".reservationSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 24,
+  grid: {
+    rows: 3,
+  },
+  breakpoints: {
+    768:{
+      spaceBetween: 30,
+      grid: {
+        rows: 0,
+      },
+    },
+    768:{
+      spaceBetween: 20,
+      grid: {
+        rows: 0,
+      },
+    },
+  },
+});
+
 
 // 瑜珈空間
 let envRecommendSwiper = new Swiper(".envRecommendSwiper", {
