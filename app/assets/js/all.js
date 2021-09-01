@@ -164,3 +164,21 @@ let reservationSwiper = new Swiper(".reservationSwiper", {
   },
 });
 
+
+  // scroll
+  const backBtn = document.querySelector('.topBack');
+  backBtn.addEventListener('click',scrollToTopFn);
+  window.addEventListener('scroll', scrollFn);
+  function scrollFn(){
+    let scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+    if(scrollTop >= 40){
+      backBtn.classList.add('show');
+    }else{
+      backBtn.classList.remove('show');
+    }
+  };
+  function scrollToTopFn(){
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'});
+  };
