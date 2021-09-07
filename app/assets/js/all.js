@@ -76,6 +76,7 @@ let envRecommendSwiper = new Swiper(".envRecommendSwiper", {
 // 立即預約
 const allBtn = document.querySelectorAll('.js-schemeBtn');
 const reserveSwiper = document.querySelector('.reservationSwiper');
+const swiperOuter = document.querySelector('.js-swiperOuter');
 const allItem = document.querySelectorAll('.js-reservationSwiperItem');
 const courseTitle = document.querySelector('.js-courseTitle');
 const choose = document.querySelector('.js-choose');
@@ -108,6 +109,9 @@ function reserveCollapseFn(){
     courseTitle.textContent = `${courseStr}課程-基礎 `;
     clickCard.classList.add('active');
     clickCard.parentElement.classList.remove('d-none');
+    // 滾到選擇課程階級
+    scrollToCollapseFn();
+
 
   }else{
     choose.classList.add('d-none');
@@ -141,6 +145,12 @@ function getActive(allItem){
     return item.classList.contains('active');
   });
     return (ary === undefined) ? false : ary;
+};
+function scrollToCollapseFn(){
+  let top = swiperOuter.offsetTop;
+  window.scrollTo({
+    top: top -74, 
+    behavior: 'smooth'});
 };
 let reservationSwiper = new Swiper(".reservationSwiper", {
   slidesPerView: "auto",
